@@ -51,7 +51,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
         </div>
 
-        <a class="nav-link hover:text-logo-purple" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
+        <a class="nav-link hover:text-logo-purple ease-in duration-300" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
       </nav>
     </div>
   </header>

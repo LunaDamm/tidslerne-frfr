@@ -7,6 +7,8 @@
         <p v-if="artikel.author" class="">Af {{ artikel.author }}</p><p v-if="artikel.authorEmail">{{ artikel.authorEmail }}</p>
         </div>
         <div v-html="artikel.txt" class="artikelTekst"></div>
+        <p v-if="artikel.source">Kilde:</p>
+        <a class="pb-4" v-if="artikel.source" :href="artikel.source">{{ artikel.source }}</a>
         <p v-for="tag in artikel.tags" :key="tag"> {{ tag }}</p>
     </div>
 

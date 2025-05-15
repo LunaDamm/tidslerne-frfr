@@ -23,6 +23,7 @@ export const useArtiklerDatabase = () => {
       tags: data.Tags || [],
       image: data.Billede || '',
       description: data.Beskrivelse || '',
+      source: data.Kilde || '',
       txt: marked.parse(content)
     }
   }))

@@ -42,7 +42,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
 
         <div class="infoDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple" to="#">Info</RouterLink>
+          <RouterLink class="nav-link hover:text-logo-purple" to="/info">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>

@@ -9,8 +9,8 @@
 <section class="medlemOgFordele flex pb-16">
 <div class="Imgcontainer p-40 w-2/4 rounded-sm"></div>
 
-<div class="flex flex-col items-center justify-center p-8 ">
-<p class="OverskriftButton w-2/4 text-dark-green pb-4">Halløjsa! Bliv medlem her og få en masse fordele</p>
+<div class="flex flex-col items-center justify-center pl-48 ">
+<p class="OverskriftButton w-72 text-dark-green pb-4">Halløjsa! Bliv medlem her og få en masse fordele</p>
 <div class="flex flex-col gap-4 w-full items-center font-bold">
   <button class="buttonTekst bg-button-green text-light-green px-8 py-2 rounded-sm mb-4 w-72">Medlem</button>
     <button class="buttonTekst bg-button-green text-light-green px-8 py-2 rounded-sm  w-72">Fordele</button>
@@ -60,7 +60,7 @@
 }
 
 .OverskriftButton{
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .arrangementerKnapper{

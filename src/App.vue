@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <div class="artiklerDropDown">
           <RouterLink class="nav-link" to="/artikler">Artikler</RouterLink>
-          <div class="artiklerDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green rounded-sm py-2">
+          <div class="artiklerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link" to="/artikler">Patienthistorier</RouterLink>
             <RouterLink class="dropDown-link" to="/artikler">Behandling i Udlandet</RouterLink>
             <RouterLink class="dropDown-link" to="/artikler">Konventionel</RouterLink>
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <div class="omOsDropDown">
           <RouterLink class="nav-link" to="/om-os">Om os</RouterLink>
-          <div class="omOsDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green rounded-sm py-2">
+          <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link" to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink class="dropDown-link" to="/bladet">Tidslerne Bladet</RouterLink>
             <RouterLink class="dropDown-link" to="/kontakt-os">Kontakt os</RouterLink>
@@ -43,7 +43,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
         <div class="infoDropDown">
           <RouterLink class="nav-link" to="/info">Info</RouterLink>
-          <div class="infoDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green rounded-sm py-2">
+          <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link" to="/privatspolitik">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="/zoom-vejledning">Vejledning til Zoom</RouterLink>
             <RouterLink class="dropDown-link" to="/vedtægter">Vedtægter</RouterLink>
@@ -106,8 +106,14 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: block;
-  padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  padding: 5px 30px;
+}
+
+button {
+  display: block;
+  border-left: 1px solid var(--color-border);
+  padding: 5px 30px;
 }
 
 nav a:first-of-type {
@@ -123,7 +129,7 @@ nav a:first-of-type {
 }
 
 .dropDown-link {
-padding: 7px 15px;
+padding: 2px 15px;
 }
 
 .footer-link {
@@ -137,6 +143,10 @@ padding: 33px 0 33px 117px;
 }
 
 .footerBox1 {
+margin-right: 197px;
+}
+
+.footerBox2 {
 margin-right: 197px;
 }
 

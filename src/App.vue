@@ -9,6 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper w-3/4">
 
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
+        <RouterLink to="/">Hjem</RouterLink>
         <div class="arrangementerDropDown">
           <button class="">Arrangementer</button>
           <div class="arrangementerDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green">

@@ -17,11 +17,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/OmOsView.vue'),
     },
-    {
-      path: '/seneste-nyt',
-      name: 'seneste nyt',
-      component: () => import('../views/SenesteNytView.vue'),
-    },
+    // {
+    //   path: '/seneste-nyt',
+    //   name: 'seneste nyt',
+    //   component: () => import('../views/SenesteNytView.vue'),
+    // },
     {
       path: '/bladet',
       name: 'bladet',

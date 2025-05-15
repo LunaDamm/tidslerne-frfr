@@ -1,3 +1,6 @@
+/* Hind Sigurd og Oxygen. Open Sans Condenssed mangler? */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Oxygen:wght@300;400;700&display=swap');
+
 @import './base.css';
 @import "tailwindcss";
 
@@ -8,6 +11,10 @@
   --color-nav-green: #90B363;
   --color-light-green: #E7FFE2;
   --color-bag-green: #F0F6EA;
+
+    --font-headline: 'Oxygen', sans-serif;
+
+    --font-main: 'Hind Siliguri', sans-serif;
 
 }
 

@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
+        {
       path: '/',
       name: 'hjem',
       component: HomeView,
@@ -17,6 +17,27 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/OmOsView.vue'),
     },
+    {
+      path: '/seneste-nyt',
+      name: 'seneste nyt',
+      component: () => import('../views/SenesteNytView.vue'),
+    },
+    {
+      path: '/bladet',
+      name: 'bladet',
+      component: () => import('../views/BladetView.vue'),
+    },
+    {
+      path: '/artikler',
+      name: 'artikler',
+      component: () => import('../views/ArtiklerView.vue'),
+    },
+    {
+      path: '/artikler/:id',
+      name: 'artikel',
+      component: () => import('../views/ArtikelDetails.vue'),
+    },
+
   ],
 })
 

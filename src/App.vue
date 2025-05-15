@@ -20,11 +20,11 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="artiklerDropDown">
           <RouterLink to="/artikler">Artikler</RouterLink>
           <div class="artiklerDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green">
-            <RouterLink to="/artikler/patienthistorier">Patienthistorier</RouterLink>
-            <RouterLink to="/artikler/behandling-i-udlandet">Behandling i Udlandet</RouterLink>
-            <RouterLink to="/artikler/konventionel">Konventionel</RouterLink>
-            <RouterLink to="/artikler/komplementær">Komplementær</RouterLink>
-            <RouterLink to="/artikler/følge-og-senskader">Følge og senskader</RouterLink>
+            <RouterLink to="/artikler">Patienthistorier</RouterLink>
+            <RouterLink to="/artikler">Behandling i Udlandet</RouterLink>
+            <RouterLink to="/artikler">Konventionel</RouterLink>
+            <RouterLink to="/artikler">Komplementær</RouterLink>
+            <RouterLink to="/artikler">Følge og senskader</RouterLink>
           </div>
         </div>
         <div class="omOsDropDown">

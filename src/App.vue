@@ -3,12 +3,12 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header class="bg-bag-green">
+  <header class="bg-nav-green">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper w-3/4">
 
-      <nav class="flex flex-col md:flex-row">
+      <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
         <RouterLink to="/">Hjem</RouterLink>
         <div class="arrangementerDropDown">
           <button class="">Arrangementer</button>
@@ -17,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <a href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
           </div>
         </div>
+
         <div class="artiklerDropDown">
           <RouterLink to="/artikler">Artikler</RouterLink>
           <div class="artiklerDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green">
@@ -27,8 +28,9 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/artikler">Følge og senskader</RouterLink>
           </div>
         </div>
+
         <div class="omOsDropDown">
-          <button class="">Om Os</button>
+          <RouterLink to="/om-os">Om os</RouterLink>
           <div class="omOsDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green">
             <RouterLink to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink to="/bladet">Tidslerne Bladet</RouterLink>
@@ -38,8 +40,9 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/nyhedsbrev">Nyhedsbrev</RouterLink>
           </div>
         </div>
+
         <div class="infoDropDown">
-          <button class="">Info</button>
+          <RouterLink to="/info">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute w-50 bg-button-green text-light-green">
             <RouterLink to="/privatspolitik">Privatspolitik</RouterLink>
             <RouterLink to="/zoom-vejledning">Vejledning til Zoom</RouterLink>
@@ -47,6 +50,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink to="/søg-legater">Søg Legater</RouterLink>
           </div>
         </div>
+
         <a href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
       </nav>
     </div>
@@ -56,13 +60,20 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
   <footer>
-    <div class="w-3/4">
-      <nav class="">
-        <RouterLink to="/privatpolitik">Privatpolitik</RouterLink>
-        <RouterLink to="/vedtægter">Vedtægter</RouterLink>
-        <RouterLink to="/søg-legater">Søg Legater</RouterLink>
-        <a href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
-      </nav>
+    <div class="w-4/4 bg-nav-green">
+      <div class="footerBigBox text-light-green flex flex-col md:flex-row">
+        <div class="footerBox1 ">
+        <RouterLink class="footer-link" to="/kontakt-os">Kontakt os</RouterLink>
+        <RouterLink class="footer-link" to="/privatpolitik">Privatpolitik</RouterLink>
+        <RouterLink class="footer-link" to="/artikler">Artikler</RouterLink>
+      </div>
+
+      <div class="footerBox2">
+        <RouterLink class="footer-link" to="/merch">Merch</RouterLink>
+        <a class="footer-link" href="https://medlem.tidslerne.dk/">Login</a>
+        <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
+      </div>
+    </div>
     </div>
   </footer>
 </template>
@@ -80,7 +91,7 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 20px;
   text-align: center;
   margin-top: 2rem;
 }
@@ -101,6 +112,26 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+.textNav {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.footer-link {
+  display: block;
+  font-weight: bold;
+}
+
+.footerBigBox {
+font-size: 20px;
+padding: 33px 0 33px 117px;
+}
+
+.footerBox1 {
+margin-right: 197px;
 }
 
 @media (min-width: 1024px) {

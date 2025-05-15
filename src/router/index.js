@@ -18,11 +18,6 @@ const router = createRouter({
       component: () => import('../views/OmOsView.vue'),
     },
     {
-      path: '/seneste-nyt',
-      name: 'seneste nyt',
-      component: () => import('../views/SenesteNytView.vue'),
-    },
-    {
       path: '/bladet',
       name: 'bladet',
       component: () => import('../views/BladetView.vue'),

@@ -11,47 +11,47 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
         <RouterLink to="/">Hjem</RouterLink>
         <div class="arrangementerDropDown">
-          <button class="nav-link">Arrangementer</button>
+          <button class="nav-link hover:text-purple-900">Arrangementer</button>
           <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
-            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
+            <a class="dropDown-link hover:text-purple-900" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
+            <a class="dropDown-link hover:text-purple-900" href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
           </div>
         </div>
 
         <div class="artiklerDropDown">
-          <RouterLink class="nav-link" to="/artikler">Artikler</RouterLink>
+          <RouterLink class="nav-link hover:text-purple-900" to="/artikler">Artikler</RouterLink>
           <div class="artiklerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link" to="/artikler">Patienthistorier</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Behandling i Udlandet</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Konventionel</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Komplementær</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Følge og senskader</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/artikler">Patienthistorier</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/artikler">Behandling i Udlandet</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/artikler">Konventionel</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/artikler">Komplementær</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/artikler">Følge og senskader</RouterLink>
           </div>
         </div>
 
         <div class="omOsDropDown">
-          <RouterLink class="nav-link" to="/om-os">Om os</RouterLink>
+          <RouterLink class="nav-link hover:text-purple-900" to="/om-os">Om os</RouterLink>
           <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link" to="/om-os">Hvem er vi?</RouterLink>
-            <RouterLink class="dropDown-link" to="/bladet">Tidslerne Bladet</RouterLink>
-            <RouterLink class="dropDown-link" to="/kontakt-os">Kontakt os</RouterLink>
-            <RouterLink class="dropDown-link" to="/støt-os">Støt os</RouterLink>
-            <RouterLink class="dropDown-link" to="/facebook">Facebook Grupper</RouterLink>
-            <RouterLink class="dropDown-link" to="/nyhedsbrev">Nyhedsbrev</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/om-os">Hvem er vi?</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/bladet">Tidslerne Bladet</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/kontakt-os">Kontakt os</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/støt-os">Støt os</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/facebook">Facebook Grupper</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/nyhedsbrev">Nyhedsbrev</RouterLink>
           </div>
         </div>
 
         <div class="infoDropDown">
-          <RouterLink class="nav-link" to="/info">Info</RouterLink>
+          <RouterLink class="nav-link hover:text-purple-900" to="/info">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link" to="/privatspolitik">Privatspolitik</RouterLink>
-            <RouterLink class="dropDown-link" to="/zoom-vejledning">Vejledning til Zoom</RouterLink>
-            <RouterLink class="dropDown-link" to="/vedtægter">Vedtægter</RouterLink>
-            <RouterLink class="dropDown-link" to="/søg-legater">Søg Legater</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/privatspolitik">Privatspolitik</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/zoom-vejledning">Vejledning til Zoom</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/vedtægter">Vedtægter</RouterLink>
+            <RouterLink class="dropDown-link hover:text-purple-900" to="/søg-legater">Søg Legater</RouterLink>
           </div>
         </div>
 
-        <a class="nav-link" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
+        <a class="nav-link hover:text-purple-900" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
       </nav>
     </div>
   </header>
@@ -74,6 +74,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
       </div>
     </div>
+
+    <div></div>
+
     </div>
   </footer>
 </template>

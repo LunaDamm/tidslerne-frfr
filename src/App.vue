@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header class="bg-nav-green">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
 
     <div class="wrapper w-4/4">
 
@@ -74,10 +74,6 @@ import { RouterLink, RouterView } from 'vue-router'
         <a class="footer-link" href="https://medlem.tidslerne.dk/">Login</a>
         <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
       </div>
-
-      <div class="facebookLogo"></div>
-
-      <div class="instagramLogo"></div>
 
     </div>
 
@@ -153,24 +149,6 @@ margin-right: 189px;
 
 .footerBox2 {
 margin-right: 197px;
-}
-
-.facebookLogo{
-  background-image: url('@/assets/shrek.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 50px;
-  width: 50px;
-  border-right: 2px solid var(--color-light-green);
-}
-
-.instagramLogo{
-  background-image: url('@/assets/æsel.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 50px;
-  width: 50px;
-
 }
 
 

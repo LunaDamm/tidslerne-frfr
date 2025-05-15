@@ -2,9 +2,13 @@
   <div class="">
     <img class="" :src="artikel.image" alt="">
     <div class="">
-        <h1 class="text-2xl"> {{ artikel.name }}</h1>
-        <p class="">Af {{ artikel.author }}, {{ artikel.authorEmail }}</p>
-        <div v-html="artikel.txt"></div>
+      <div class="pb-4">
+        <h1 class="text-2xl font-bold"> {{ artikel.name }}</h1>
+        <p v-if="artikel.author" class="">Af {{ artikel.author }}</p><p v-if="artikel.authorEmail">{{ artikel.authorEmail }}</p>
+        </div>
+        <div v-html="artikel.txt" class="artikelTekst"></div>
+        <p v-if="artikel.source">Kilde:</p>
+        <a class="pb-4" v-if="artikel.source" :href="artikel.source">{{ artikel.source }}</a>
         <p v-for="tag in artikel.tags" :key="tag"> {{ tag }}</p>
     </div>
 

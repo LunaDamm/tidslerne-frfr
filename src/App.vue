@@ -34,24 +34,24 @@ import { RouterLink, RouterView } from 'vue-router'
           <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link " to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink class="dropDown-link " to="/bladet">Tidslerne Bladet</RouterLink>
-            <RouterLink class="dropDown-link " to="/kontakt-os">Kontakt os</RouterLink>
-            <RouterLink class="dropDown-link " to="/støt-os">Støt os</RouterLink>
-            <RouterLink class="dropDown-link " to="/facebook">Facebook Grupper</RouterLink>
-            <RouterLink class="dropDown-link " to="/nyhedsbrev">Nyhedsbrev</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Kontakt os</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Støt os</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Facebook Grupper</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Nyhedsbrev</RouterLink>
           </div>
         </div>
 
         <div class="infoDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple" to="/info">Info</RouterLink>
+          <RouterLink class="nav-link hover:text-logo-purple" to="#">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link " to="/privatspolitik">Privatspolitik</RouterLink>
-            <RouterLink class="dropDown-link" to="/zoom-vejledning">Vejledning til Zoom</RouterLink>
-            <RouterLink class="dropDown-link " to="/vedtægter">Vedtægter</RouterLink>
-            <RouterLink class="dropDown-link" to="/søg-legater">Søg Legater</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
+            <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Vedtægter</RouterLink>
+            <RouterLink class="dropDown-link" to="#">Søg Legater</RouterLink>
           </div>
         </div>
 
-        <a class="nav-link hover:text-logo-purple" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
+        <a class="nav-link hover:text-logo-purple ease-in duration-300" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
       </nav>
     </div>
   </header>
@@ -64,13 +64,13 @@ import { RouterLink, RouterView } from 'vue-router'
 <div class="footerBigBox text-light-green flex flex-col md:flex-row items-center">
 
     <div class="footerBox1 ">
-        <RouterLink class="footer-link" to="/kontakt-os">Kontakt os</RouterLink>
-        <RouterLink class="footer-link" to="/privatpolitik">Privatpolitik</RouterLink>
-        <RouterLink class="footer-link" to="/artikler">Artikler</RouterLink>
+        <RouterLink class="footer-link" to="#">Kontakt os</RouterLink>
+        <RouterLink class="footer-link" to="#">Privatpolitik</RouterLink>
+        <RouterLink class="footer-link" to="#">Artikler</RouterLink>
       </div>
 
       <div class="footerBox2">
-        <RouterLink class="footer-link" to="/merch">Merch</RouterLink>
+        <RouterLink class="footer-link" to="#">Merch</RouterLink>
         <a class="footer-link" href="https://medlem.tidslerne.dk/">Login</a>
         <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
       </div>

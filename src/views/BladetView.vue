@@ -1,7 +1,6 @@
 <script setup>
 
 import { useBladetDatabase } from '@/modules/useBladetDatabase';
-import { computed } from 'vue';
 
 const { bladet } = useBladetDatabase();
 
@@ -33,11 +32,11 @@ console.log(bladet);
     <div class="flex flex-wrap">
           <!-- repeat blad thumbnail -->
           <div class="flex flex-wrap w-full gap-4 justify-center">
-            <router-link :to="`/bladet/${blad.id}`" class="w-3./12" v-for="blad in bladet" :key="blad.id">
-              <img :src="blad.image" alt="{{ blad.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
+            <a :href="blad.pdf" class="w-3./12" v-for="blad in bladet" :key="blad.id">
+              <img :src="blad.thumbnail" alt="{{ blad.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
               <p class="text-2xl">{{ blad.name }}</p>
               <p>{{ blad.description }}</p>
-            </router-link>
+            </a>
           </div>
         </div>
   </div>

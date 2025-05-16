@@ -1,9 +1,15 @@
 <script setup>
 import { useArtiklerDatabase } from '@/modules/useArtiklerDatabase';
+import { computed } from 'vue';
 
 const { artikler } = useArtiklerDatabase();
 
-console.log(artikler); // Check if Artikler contains data
+// Get only the two newest articles
+const newestArtikler = computed(() =>
+  [...artikler.value]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 2)
+)
 </script>
 
 <template>
@@ -35,11 +41,14 @@ console.log(artikler); // Check if Artikler contains data
   <div class="flex flex-wrap">
           <!-- repeat artikel thumbnail -->
           <div class="flex flex-wrap w-full gap-4 justify-center">
-            <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in artikler" :key="artikel.id">
+            <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in newestArtikler" :key="artikel.id">
               <img :src="artikel.image" alt="{{ artikel.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
               <p class="text-2xl">{{ artikel.name }}</p>
               <p>{{ artikel.description }}</p>
             </router-link>
+            <a class="w-4/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
+              <img src="../assets/shrekAndÆsel.jpg" class="h-100 rounded-[5px] w-full" alt="">
+            </a>
           </div>
         </div>
 

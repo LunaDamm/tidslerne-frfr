@@ -11,16 +11,11 @@
   --color-nav-green: #90B363;
   --color-light-green: #E7FFE2;
   --color-bag-green: #F0F6EA;
-  --color-logo-purple: #7F749B;
 
     --font-headline: 'Oxygen', sans-serif;
 
     --font-main: 'Hind Siliguri', sans-serif;
 
-}
-
-.font-main {
-  font-family: var(--font-main);
 }
 
 /* Drop down menuer */
@@ -40,38 +35,10 @@
   display: block;
 }
 
-/* Brødtekst for artiklerne */
-.artikelTekst{
-  font-family: var(--font-main);
-  font-size: 16px;
-  line-height: 1.5rem;
-  color: var(--color-dark-green);
-}
-.artikelTekst p {
-  margin-bottom: 1rem;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.artikelTekst a {
-  color: var(--color-nav-green);
-  text-decoration: underline;
-  transition: 0.4s;
-}
-
-.artikelTekst a:hover {
-  color: var(--color-logo-purple);
-  text-decoration: underline;
-}
-
-.artikelTekst ul {
-  margin-bottom: 1rem;
-}
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
-/*   padding: 2rem; */
+  padding: 2rem;
 /*   font-weight: normal; */
 }
 

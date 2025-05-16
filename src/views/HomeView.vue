@@ -46,8 +46,8 @@ const newestArtikler = computed(() =>
               <p class="text-2xl">{{ artikel.name }}</p>
               <p>{{ artikel.description }}</p>
             </router-link>
-            <a class="w-4/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
-              <img src="../assets/shrekAndÆsel.jpg" class="h-100 rounded-[5px] w-full" alt="">
+            <a class="w-3/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
+              <img src="../assets/shrekAndÆsel.jpg" class="h-100 rounded-[5px] w-full object-cover" alt="">
             </a>
           </div>
         </div>

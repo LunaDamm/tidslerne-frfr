@@ -23,10 +23,10 @@
     <img src="/images/Mai-Nielsen3.png" alt="Mai Nielsen" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Mai Nielsen</p>
     <p class="text-dark-green font-bold text-[20px]">Formand</p>
-    <p class="text-dark-green text-[16px]">Engparken 13</p>
-    <p class="text-dark-green text-[16px]">6700 Esbjerg</p>
-    <p class="text-dark-green text-[16px]">tlf: 40 15 90 11</p>
-    <p class="text-dark-green text-[16px]">E-mail: formand@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Engparken 13</p>
+    <p class="text-dark-green text-[16px] font-main">6700 Esbjerg</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 40 15 90 11</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: formand@tidslerne.dk</p>
   </div>
 
   <!-- Person 2 -->
@@ -34,10 +34,10 @@
     <img src="/images/nynne_afkjaer.png" alt="Nynne Afkjær" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Nynne Afkjær</p>
     <p class="text-dark-green font-bold text-[20px]">Frivillig</p>
-    <p class="text-dark-green text-[16px]">Strandjægervej 85</p>
-    <p class="text-dark-green text-[16px]">2791 Dragør</p>
-    <p class="text-dark-green text-[16px]">tlf: 61 60 83 13</p>
-    <p class="text-dark-green text-[16px]">E-mail: nynne.afkjaer@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Strandjægervej 85</p>
+    <p class="text-dark-green text-[16px] font-main">2791 Dragør</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 61 60 83 13</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: nynne.afkjaer@tidslerne.dk</p>
   </div>
 
   <!-- Person 3 -->
@@ -45,10 +45,10 @@
     <img src="/images/hovedskou.png" alt="Christina Hovedskou" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Christina Hovedskou</p>
     <p class="text-dark-green font-bold text-[20px]">Kredskoordinator / Online Kurser</p>
-    <p class="text-dark-green text-[16px]">Hylleholtvej 11</p>
-    <p class="text-dark-green text-[16px]">4654 Faxe Ladeplads</p>
-    <p class="text-dark-green text-[16px]">tlf: 23 37 33 63</p>
-    <p class="text-dark-green text-[16px]">E-mail: zoom@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Hylleholtvej 11</p>
+    <p class="text-dark-green text-[16px] font-main">4654 Faxe Ladeplads</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 23 37 33 63</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: zoom@tidslerne.dk</p>
   </div>
 </div>
 
@@ -60,10 +60,10 @@
     <img src="/images/dorthehelbrink.jpg" alt="Dorthe Helbrink" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Dorthe Helbrink</p>
     <p class="text-dark-green font-bold text-[20px]">Næstformand / Tidsellinjen</p>
-    <p class="text-dark-green text-[16px]">Bygade 25</p>
-    <p class="text-dark-green text-[16px]">3720 Aakirkeby</p>
-    <p class="text-dark-green text-[16px]">tlf: 51 27 01 76</p>
-    <p class="text-dark-green text-[16px]">E-mail: tidsellinjen@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Bygade 25</p>
+    <p class="text-dark-green text-[16px] font-main">3720 Aakirkeby</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 51 27 01 76</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: tidsellinjen@tidslerne.dk</p>
   </div>
 
   <!-- Person 5 -->
@@ -71,10 +71,10 @@
     <img src="/images/dorthe_olsen.jpg" alt="Dorthe Vinther Olsen" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Dorthe Vinther Olsen</p>
     <p class="text-dark-green font-bold text-[20px]">Kasserer</p>
-    <p class="text-dark-green text-[16px]">Aalborgvej 136</p>
-    <p class="text-dark-green text-[16px]">9370 Hals</p>
-    <p class="text-dark-green text-[16px]">tlf: 51 51 25 61</p>
-    <p class="text-dark-green text-[16px]">E-mail: kasserer@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Aalborgvej 136</p>
+    <p class="text-dark-green text-[16px] font-main">9370 Hals</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 51 51 25 61</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: kasserer@tidslerne.dk</p>
   </div>
 
   <!-- Person 6 -->
@@ -82,10 +82,10 @@
     <img src="/images/Heidi-Hansen.jpg" alt="Heidi Hansen" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Heidi Hansen</p>
     <p class="text-dark-green font-bold text-[20px]">Frivillig</p>
-    <p class="text-dark-green text-[16px]">Birkevej 7A</p>
-    <p class="text-dark-green text-[16px]">4300 Holbæk</p>
-    <p class="text-dark-green text-[16px]">tlf: 60 71 16 08</p>
-    <p class="text-dark-green text-[16px]">E-mail: Heidi.Hansen@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Birkevej 7A</p>
+    <p class="text-dark-green text-[16px] font-main">4300 Holbæk</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 60 71 16 08</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: Heidi.Hansen@tidslerne.dk</p>
   </div>
 </div>
 
@@ -97,10 +97,10 @@
     <img src="/images/Marianne-Brodsgaard.jpg" alt="Marianne Brødsgaard" class="w-full h-auto rounded-[5px]"/>
     <p class="mt-2 text-dark-green font-bold text-[32px]">Marianne Brødsgaard</p>
     <p class="text-dark-green font-bold text-[20px]">Frivillig</p>
-    <p class="text-dark-green text-[16px]">Ryttergrøftsvejen 329</p>
-    <p class="text-dark-green text-[16px]">7080 Børkop</p>
-    <p class="text-dark-green text-[16px]">tlf: 29 61 43 11</p>
-    <p class="text-dark-green text-[16px]">E-mail: Marianne.Brodsgaard@tidslerne.dk</p>
+    <p class="text-dark-green text-[16px] font-main">Ryttergrøftsvejen 329</p>
+    <p class="text-dark-green text-[16px] font-main">7080 Børkop</p>
+    <p class="text-dark-green text-[16px] font-main">tlf: 29 61 43 11</p>
+    <p class="text-dark-green text-[16px] font-main">E-mail: Marianne.Brodsgaard@tidslerne.dk</p>
   </div>
 </div>
 

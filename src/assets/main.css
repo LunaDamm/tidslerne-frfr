@@ -19,6 +19,10 @@
 
 }
 
+.font-main {
+  font-family: var(--font-main);
+}
+
 /* Drop down menuer */
 .arrangementerDropDown:hover .arrangementerDropDownContent {
   display: block;

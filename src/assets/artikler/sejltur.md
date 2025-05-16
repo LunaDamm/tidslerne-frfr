@@ -9,7 +9,7 @@ Beskrivelse: Ejerne af 10 danske sejlskibe har doneret en sejltur...
 Kilde:
 ---
 
-## Ejerne af 10 danske sejlskibe har velvilligt valgt at donere en sejltur til kræftpatienter og pårørende, som er medlem af Tidslerne.
+Ejerne af 10 danske sejlskibe har velvilligt valgt at donere en sejltur til kræftpatienter og pårørende, som er medlem af Tidslerne.
 
 Sejladserne finder sted 22. september 2024 og sker fra følgende havne:
 

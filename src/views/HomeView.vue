@@ -47,7 +47,7 @@ const newestArtikler = computed(() =>
               <p>{{ artikel.description }}</p>
             </router-link>
             <a class="w-3/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
-              <img src="../assets/shrekAndÆsel.jpg" class="h-100 rounded-[5px] w-full object-cover" alt="">
+              <img src="/public/images/merchTidslerne.png" class="h-100 rounded-[5px] w-full object-cover" alt="">
             </a>
           </div>
         </div>

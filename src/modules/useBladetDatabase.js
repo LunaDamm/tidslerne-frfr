@@ -17,3 +17,10 @@ export const useBladetDatabase = () => {
             pdf: 'bladet-1.pdf',
             thumbnail: 'bladet-1.jpg',
         },
+
+    ])
+
+    return {
+        Bladet
+    }
+}

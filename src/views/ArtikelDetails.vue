@@ -3,12 +3,12 @@
 
     <img class="artikelHero w-4/4" :src="artikel.image" alt="">
 <div class="flex justify-center">
-    <div class="bg-white w-3/4 p-4">
+    <div class="bg-white w-3/4 p-4 rounded-sm">
       <div class="pb-4">
-        <h1 class="text-2xl font-bold"> {{ artikel.name }}</h1>
-        <p v-if="artikel.author" class="">Af {{ artikel.author }}</p><p v-if="artikel.authorEmail">{{ artikel.authorEmail }}</p>
+        <h1 class="text-[48px] font-bold"> {{ artikel.name }}</h1>
+        <p v-if="artikel.author" class="text-gray-500">Af {{ artikel.author }}</p><p v-if="artikel.authorEmail" class="text-gray-500">{{ artikel.authorEmail }}</p>
         </div>
-        <div v-html="artikel.txt" class="artikelTekst"></div>
+        <div v-html="artikel.txt" class="artikelTekst text-[16px]"></div>
 
     </div>
   </div>

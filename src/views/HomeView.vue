@@ -61,10 +61,10 @@ const newestArtikler = computed(() =>
 
 <section class="arrangementerKnapper">
   <div class="flex justify-center gap-4">
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
      href="https://tidslerne.nemtilmeld.dk/">Arrangementer for patienter</a>
 
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
       href="https://tidslerne.nemtilmeld.dk/" >Arrangementer for støttemedlemmer</a>
   </div>
 </section>

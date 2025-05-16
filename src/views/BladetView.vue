@@ -1,3 +1,14 @@
+<script setup>
+
+import { useBladetDatabase } from '@/modules/useBladetDatabase';
+import { computed } from 'vue';
+
+const { bladet } = useBladetDatabase();
+
+console.log(bladet);
+
+</script>
+
 <template>
   <div class="relative w-full h-[400px] md:h-[800px]">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/midt-om-natten.png');"></div>
@@ -15,6 +26,25 @@
 
   <div class="p-5"></div>
 
+   <!-- artikel = blad
+        artikler = bladet-->
+
+    <div>
+    <div class="flex flex-wrap">
+          <!-- repeat blad thumbnail -->
+          <div class="flex flex-wrap w-full gap-4 justify-center">
+            <router-link :to="`/bladet/${blad.id}`" class="w-3./12" v-for="blad in bladet" :key="blad.id">
+              <img :src="blad.image" alt="{{ blad.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
+              <p class="text-2xl">{{ blad.name }}</p>
+              <p>{{ blad.description }}</p>
+            </router-link>
+          </div>
+        </div>
+  </div>
+
+   <!-- BLAD SLUT HER -->
+
+
   <h1 class="text-dark-green font-bold text-[48px]">Bladet</h1>
 
   <div class="p-5"></div>
@@ -28,11 +58,5 @@
 </template>
 
 
-
-
-
-
-<script setup>
-</script>
 
 <style></style>

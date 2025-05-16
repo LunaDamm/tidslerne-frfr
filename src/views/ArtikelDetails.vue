@@ -1,16 +1,23 @@
 <template>
-  <div class="">
-    <img class="" :src="artikel.image" alt="">
-    <div class="">
+  <div class="relative">
+
+    <img class="artikelHero w-4/4" :src="artikel.image" alt="">
+<div class="flex justify-center">
+    <div class="bg-white w-3/4 p-4">
       <div class="pb-4">
         <h1 class="text-2xl font-bold"> {{ artikel.name }}</h1>
         <p v-if="artikel.author" class="">Af {{ artikel.author }}</p><p v-if="artikel.authorEmail">{{ artikel.authorEmail }}</p>
         </div>
         <div v-html="artikel.txt" class="artikelTekst"></div>
-        <p v-if="artikel.source">Kilde:</p>
+
+    </div>
+  </div>
+
+<div class="" >
+  <p v-if="artikel.source">Kilde:</p>
         <a class="pb-4" v-if="artikel.source" :href="artikel.source">{{ artikel.source }}</a>
         <p v-for="tag in artikel.tags" :key="tag"> {{ tag }}</p>
-    </div>
+</div>
 
   </div>
 </template>
@@ -27,6 +34,6 @@ const artikel = computed(() => {
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

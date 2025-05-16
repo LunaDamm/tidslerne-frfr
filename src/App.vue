@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
         <RouterLink to="/">Hjem</RouterLink>
         <div class="arrangementerDropDown">
-          <button class="nav-link hover:text-logo-purple">Arrangementer</button>
+          <button class="nav-link hover:text-logo-purple ease-in duration-300">Arrangementer</button>
           <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
             <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
 
         <div class="artiklerDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple" to="/artikler">Artikler</RouterLink>
+          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/artikler">Artikler</RouterLink>
           <div class="artiklerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link" to="/artikler">Patienthistorier</RouterLink>
             <RouterLink class="dropDown-link" to="/artikler">Behandling i Udlandet</RouterLink>
@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
 
         <div class="omOsDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple" to="/om-os">Om os</RouterLink>
+          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/om-os">Om os</RouterLink>
           <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link " to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink class="dropDown-link " to="/bladet">Tidslerne Bladet</RouterLink>
@@ -42,7 +42,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
 
         <div class="infoDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple" to="/info">Info</RouterLink>
+          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/info">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>

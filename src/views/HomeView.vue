@@ -30,7 +30,7 @@ console.log(artikler); // Check if Artikler contains data
 
 <section class="senesteNyt flex flex-col">
   <div class="text-dark-green text-[48px] font-bold">
-    <p>Seneste Nyt</p>
+    <h2>Seneste Nyt</h2>
   </div>
   <div class="flex flex-wrap">
           <!-- repeat artikel thumbnail -->

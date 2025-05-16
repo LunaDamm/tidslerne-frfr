@@ -36,7 +36,7 @@ const newestArtikler = computed(() =>
 
 <section class="senesteNyt flex flex-col">
   <div class="text-dark-green text-[48px] font-bold">
-    <p>Seneste Nyt</p>
+    <h2>Seneste Nyt</h2>
   </div>
   <div class="flex flex-wrap">
           <!-- repeat artikel thumbnail -->
@@ -47,7 +47,7 @@ const newestArtikler = computed(() =>
               <p>{{ artikel.description }}</p>
             </router-link>
             <a class="w-3/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
-              <img src="../assets/shrekAndÆsel.jpg" class="h-100 rounded-[5px] w-full object-cover" alt="">
+              <img src="/public/images/merchTidslerne.png" class="h-100 rounded-[5px] w-full object-cover" alt="">
             </a>
           </div>
         </div>
@@ -61,10 +61,10 @@ const newestArtikler = computed(() =>
 
 <section class="arrangementerKnapper">
   <div class="flex justify-center gap-4">
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
      href="https://tidslerne.nemtilmeld.dk/">Arrangementer for patienter</a>
 
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
       href="https://tidslerne.nemtilmeld.dk/" >Arrangementer for støttemedlemmer</a>
   </div>
 </section>

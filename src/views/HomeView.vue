@@ -1,4 +1,9 @@
 <script setup>
+import { useArtiklerDatabase } from '@/modules/useArtiklerDatabase';
+
+const { artikler } = useArtiklerDatabase();
+
+console.log(artikler); // Check if Artikler contains data
 </script>
 
 <template>
@@ -27,6 +32,18 @@
   <div class="text-dark-green text-[48px] font-bold">
     <p>Seneste Nyt</p>
   </div>
+  <div class="flex flex-wrap">
+          <!-- repeat artikel thumbnail -->
+          <div class="flex flex-wrap w-full gap-4 justify-center">
+            <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in artikler" :key="artikel.id">
+              <img :src="artikel.image" alt="{{ artikel.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
+              <p class="text-2xl">{{ artikel.name }}</p>
+              <p>{{ artikel.description }}</p>
+            </router-link>
+          </div>
+        </div>
+
+
   <div class="flex justify-center mt-6">
     <RouterLink class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
       to="/artikler"> Læs flere artikler </RouterLink>

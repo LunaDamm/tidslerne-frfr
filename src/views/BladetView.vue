@@ -31,9 +31,10 @@ console.log(bladet);
 
 <div class="p-5"></div>
 
+   <!-- BLAD -->
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
 <a
-  v-for="blad in bladet"
+  v-for="blad in [...bladet].reverse()"
   :key="blad.id"
   :href="blad.pdf"
   target="_blank"
@@ -48,15 +49,6 @@ console.log(bladet);
   />
 </a>
 </div>
-
-
-
-
-
-
-
-
-
    <!-- BLAD SLUT HER -->
 
 
@@ -64,7 +56,7 @@ console.log(bladet);
   <div class="p-5"></div>
 
 <div class="w-full flex justify-center mt-10">
-  <button class="bg-button-green text-light-green px-6 py-3 rounded-[5px] text-lg">
+  <button class="bg-button-green text-light-green px-6 py-3 rounded-[5px] font-bold button-text">
     Se mere
   </button>
 </div>
@@ -75,4 +67,10 @@ console.log(bladet);
 
 
 
-<style></style>
+<style scoped>
+
+.button-text{
+  font-size: 20px;
+}
+
+</style>

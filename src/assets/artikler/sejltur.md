@@ -3,7 +3,7 @@ Titel: Tag på sejltur med Tidslerne i september!
 Forfatter:
 Email:
 Dato: 2024-08-22
-Tags: [medlemstilbud]
+Tags: [Medlemstilbud]
 Billede: https://www.tidslerne.dk/wp-content/uploads/2024/08/skib_Johanne.jpg
 Beskrivelse: Ejerne af 10 danske sejlskibe har doneret en sejltur...
 Kilde:

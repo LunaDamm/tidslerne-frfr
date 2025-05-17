@@ -3,7 +3,7 @@ Titel: Ny folder til omdeling!
 Forfatter: Tidslerne
 Email:
 Dato: 2024-11-29
-Tags: [information]
+Tags: [Information]
 Billede: https://www.tidslerne.dk/wp-content/uploads/2024/11/Tidslerne-folder-2024-grafik-560x416.jpg
 Beskrivelse: Vi har en ny folder til jer!
 Kilde:

@@ -4,16 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header class="bg-nav-green">
-    <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="200" />
+<RouterLink to="/">
+  <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="200" />
+</RouterLink>
 
     <div class="wrapper w-4/4">
 
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
-        <RouterLink to="/">Hjem</RouterLink>
         <div class="arrangementerDropDown">
           <button class="nav-link hover:text-logo-purple ease-in duration-300">Arrangementer</button>
-          <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
+          <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2 ">
+            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
             <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
           </div>
         </div>
@@ -47,7 +48,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>
             <RouterLink class="dropDown-link " to="#">Vedtægter</RouterLink>
-            <RouterLink class="dropDown-link" to="#">Søg Legater</RouterLink>
+            <RouterLink class="dropDown-link " to="#">Søg Legater</RouterLink>
           </div>
         </div>
 
@@ -88,8 +89,11 @@ header {
 }
 
 .logo {
-  display: block;
-  margin: 0 auto 2rem;
+  margin-left: 20px;
+  margin-top: 15px;
+  /* display: block; */
+  /* margin: 0 auto 2rem; */
+
 }
 
 nav {
@@ -133,6 +137,10 @@ nav a:first-of-type {
 padding: 2px 15px;
 }
 
+.dropDown-link:hover{
+text-decoration: underline;
+}
+
 .footer-link {
   display: block;
   font-weight: bold;
@@ -159,9 +167,9 @@ margin-right: 197px;
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  .logo {
+  /* .logo {
     margin: 0 2rem 0 0;
-  }
+  } */
 
   header .wrapper {
     display: flex;

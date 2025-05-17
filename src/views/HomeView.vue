@@ -26,9 +26,9 @@ const newestArtikler = computed(() =>
 <p class="OverskriftButton w-72 text-dark-green pb-4">Halløjsa! Bliv medlem her og få en masse fordele</p>
 <div class="flex flex-col gap-4 w-full items-center font-bold">
 
-<a href="https://medlem.tidslerne.dk/" class="buttonTekst bg-button-green text-light-green px-8 py-2 rounded-sm mb-4 w-72 flex justify-center items-center">Medlem</a>
+<a href="https://medlem.tidslerne.dk/" class=" bg-button-green text-light-green px-8 text-[20px] py-2 rounded-sm mb-4 w-72 flex justify-center items-center">Medlem</a>
 
-<a href="https://medlem.tidslerne.dk/" class="buttonTekst bg-button-green text-light-green px-8 py-2 rounded-sm mb-4 w-72 flex justify-center items-center">Fordele</a>
+<a href="https://medlem.tidslerne.dk/" class=" bg-button-green text-light-green px-8 py-2 text-[20px] rounded-sm mb-4 w-72 flex justify-center items-center">Fordele</a>
 
 </div>
 </div>
@@ -54,17 +54,17 @@ const newestArtikler = computed(() =>
 
 
   <div class="flex justify-center mt-6">
-    <RouterLink class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
+    <RouterLink class="buttonTekstArtikler bg-button-green text-light-green text-[20px] px-8 py-2 w-72 font-bold rounded-sm flex justify-center"
       to="/artikler"> Læs flere artikler </RouterLink>
   </div>
 </section>
 
 <section class="arrangementerKnapper">
   <div class="flex justify-center gap-4">
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 text-[20px] font-bold rounded-sm flex justify-center text-center"
      href="https://tidslerne.nemtilmeld.dk/">Arrangementer for patienter</a>
 
-    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 font-bold rounded-sm flex justify-center text-center"
+    <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 text-[20px] font-bold rounded-sm flex justify-center text-center"
       href="https://tidslerne.nemtilmeld.dk/" >Arrangementer for støttemedlemmer</a>
   </div>
 </section>
@@ -86,16 +86,18 @@ const newestArtikler = computed(() =>
   background-position: center;
 }
 
-.buttonTekst{
-  font-size: 24px;
-}
-
 .OverskriftButton{
   font-size: 24px;
 }
 
+.buttonTekstArtikler{
+margin-top: 40px;
+}
+
+
 .arrangementerKnapper{
-  margin-top: 60px;
+  margin-top: 35px;
   margin-bottom: 60px;
 }
+
 </style>

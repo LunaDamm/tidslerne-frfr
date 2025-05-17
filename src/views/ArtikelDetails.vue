@@ -36,4 +36,17 @@ const artikel = computed(() => {
 
 <style scoped>
 
+  .artikelHero {
+    height: 70vh;
+    margin-bottom: -4rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+
+  .artikelTekst {
+    line-height: 1.5;
+  }
+
 </style>

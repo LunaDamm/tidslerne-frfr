@@ -16,7 +16,7 @@
 <div class="" >
   <p v-if="artikel.source">Kilde:</p>
         <a class="pb-4" v-if="artikel.source" :href="artikel.source">{{ artikel.source }}</a>
-        <p v-for="tag in artikel.tags" :key="tag"> {{ tag }}</p>
+        <p class="" v-for="tag in artikel.tags" :key="tag"> {{ tag }}</p>
 </div>
 
   </div>

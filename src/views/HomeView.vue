@@ -22,7 +22,7 @@ const newestArtikler = computed(() =>
 <section class="medlemOgFordele flex pb-16">
 <div class="Imgcontainer p-40 w-2/4 rounded-sm"></div>
 
-<div class="flex flex-col items-center justify-center pl-48 ">
+<div class="flex flex-col items-center justify-center pl-40 ">
 <p class="OverskriftButton w-72 text-dark-green pb-4">Halløjsa! Bliv medlem her og få en masse fordele</p>
 <div class="flex flex-col gap-4 w-full items-center font-bold">
 
@@ -35,12 +35,12 @@ const newestArtikler = computed(() =>
 </section>
 
 <section class="senesteNyt flex flex-col">
-  <div class="text-dark-green text-[48px] font-bold">
+  <div class="senesteNytOverskrift text-dark-green text-[48px] font-bold">
     <h2>Seneste Nyt</h2>
   </div>
   <div class="flex flex-wrap">
           <!-- repeat artikel thumbnail -->
-          <div class="flex flex-wrap w-full gap-4 justify-center">
+          <div class="forsideArtikler flex flex-wrap w-full gap-4 ">
             <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in newestArtikler" :key="artikel.id">
               <img :src="artikel.image" alt="{{ artikel.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
               <p class="text-2xl">{{ artikel.name }}</p>
@@ -81,9 +81,18 @@ const newestArtikler = computed(() =>
 }
 
 .Imgcontainer{
-    background-image: url('@/assets/OldAndYoung.jpg'); /* ret stien til dit billede */
+  margin-left: 70px;
+  background-image: url('@/assets/OldAndYoung.jpg'); /* ret stien til dit billede */
   background-size: cover;
   background-position: center;
+}
+
+.senesteNytOverskrift{
+  margin-left: 70px;
+}
+
+.forsideArtikler{
+  margin-left: 70px;
 }
 
 .OverskriftButton{
@@ -93,7 +102,6 @@ const newestArtikler = computed(() =>
 .buttonTekstArtikler{
 margin-top: 40px;
 }
-
 
 .arrangementerKnapper{
   margin-top: 35px;

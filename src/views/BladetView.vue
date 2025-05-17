@@ -32,20 +32,21 @@ console.log(bladet);
 <div class="p-5"></div>
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-  <a
-    v-for="blad in bladet"
-    :key="blad.id"
-    :href="blad.pdf"
-    class="block transform transition duration-300 hover:scale-[1.02] hover:shadow-lg rounded-lg"
-  >
-    <img
-      :src="blad.thumbnail"
-      :alt="blad.name + ' thumbnail'"
-      class="w-full object-contain rounded-[5px] max-h-[220px] md:max-h-[260px] lg:max-h-[350px] transition duration-300 hover:scale-105"
-    />
-    <p class="text-2xl mt-2 font-semibold text-center">{{ blad.name }}</p>
-    <p class="text-center">{{ blad.description }}</p>
-  </a>
+<a
+  v-for="blad in bladet"
+  :key="blad.id"
+  :href="blad.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="block rounded-[5px] overflow-hidden"
+>
+  <img
+    :src="blad.thumbnail"
+    :alt="blad.name + ' thumbnail'"
+    loading="lazy"
+    class="w-full h-auto object-cover transition duration-300 hover:scale-105"
+  />
+</a>
 </div>
 
 

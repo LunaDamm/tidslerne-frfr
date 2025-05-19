@@ -13,9 +13,10 @@ const newestArtikler = computed(() =>
 </script>
 
 <template>
+  <img src="@/assets/shrekAndÆsel.jpg" class="herooo !w-full" alt="">
   <main>
 
-<div class="heroImg p-70 !w-full"></div>
+<!-- <div class="heroImg p-70 !w-full"></div> -->
 
 
 
@@ -72,11 +73,19 @@ const newestArtikler = computed(() =>
 </template>
 
 <style scoped>
-.heroImg {
-  background-image: url('@/assets/shrekAndÆsel.jpg'); /* ret stien til dit billede */
+/* .heroImg {
+  background-image: url('@/assets/shrekAndÆsel.jpg');
   background-size: cover;
   background-position: center;
   margin-bottom: 94px;
+  width: 100%;
+}
+ */
+.herooo {
+    height: 60vh;
+    margin-bottom: 94px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .Imgcontainer{

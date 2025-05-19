@@ -28,8 +28,7 @@ const newestArtikler = computed(() =>
 
 <a href="https://medlem.tidslerne.dk/" class=" bg-button-green text-light-green px-8 text-[20px] py-2 rounded-sm mb-4 w-72 flex justify-center items-center">Medlem</a>
 
-<a href="https://medlem.tidslerne.dk/" class=" bg-button-green text-light-green px-8 py-2 text-[20px] rounded-sm mb-4 w-72 flex justify-center items-center">Fordele</a>
-
+<RouterLink class=" bg-button-green text-light-green px-8 py-2 text-[20px] rounded-sm mb-4 w-72 flex justify-center items-center" to="/fordele">Fordele</RouterLink>
 </div>
 </div>
 </section>

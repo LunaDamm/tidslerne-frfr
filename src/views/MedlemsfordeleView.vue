@@ -63,7 +63,8 @@
   </div>
   
   <div class="py-5"></div>
-  
+
+  <div class="flex flex-col md:flex-row justify-evenly items-start gap-y-10 gap-x-6">
   <div class="flex flex-col md:flex-row justify-center items-start gap-y-10 gap-x-6">
     <!-- Company 7 -->
     <div class="w-[15.5rem] text-left mx-auto">
@@ -90,6 +91,7 @@
       <p class="text-dark-green font-bold text-[20px]">10% rabat</p>
     </div>
   </div>
+</div>
   
   <div class="p-5"></div>
   

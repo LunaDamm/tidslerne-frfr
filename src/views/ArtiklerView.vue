@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>sakfjklasdjkdjdasl</h1>
-    <div class="flex flex-wrap">
+    <h1 class="pt-15">Artikler</h1>
+    <div class="">
           <!-- repeat artikel thumbnail -->
-          <div class="flex flex-wrap w-full gap-4 justify-center">
-            <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in sortedArtikler" :key="artikel.id">
+          <div class="col-span-1 w-full gap-4 grid grid-cols-3">
+            <router-link :to="`/artikler/${artikel.id}`" class="" v-for="artikel in sortedArtikler" :key="artikel.id">
               <img :src="artikel.image" alt="{{ artikel.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
-              <p class="text-2xl">{{ artikel.name }}</p>
+              <p class="text-2xl artikelTitle">{{ artikel.name }}</p>
               <p>{{ artikel.description }}</p>
             </router-link>
           </div>

@@ -20,6 +20,7 @@
 
 }
 
+
 /* Drop down menuer */
 .arrangementerDropDown:hover .arrangementerDropDownContent {
   display: block;
@@ -35,6 +36,10 @@
 
 .infoDropDown:hover .infoDropDownContent {
   display: block;
+}
+
+.artikelTitle {
+  font-family: var(--font-subtitle);
 }
 
 /* Brødtekst for artiklerne */

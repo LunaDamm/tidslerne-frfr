@@ -15,14 +15,14 @@ const newestArtikler = computed(() =>
 <template>
   <main>
 
-<div class="heroImg p-70 w-4/4"></div>
+<div class="heroImg p-70 !w-full"></div>
 
 
 
-<section class="medlemOgFordele flex pb-16">
-<div class="Imgcontainer p-40 w-2/4 rounded-sm"></div>
+<section class="medlemOgFordele grid grid-cols-12 pb-16">
+<div class="Imgcontainer p-40 rounded-sm col-span-7"></div>
 
-<div class="flex flex-col items-center justify-center pl-40 ">
+<div class="flex flex-col items-center justify-center col-start-9 col-span-3">
 <p class="OverskriftButton w-72 text-dark-green pb-4">Halløjsa! Bliv medlem her og få en masse fordele</p>
 <div class="flex flex-col gap-4 w-full items-center font-bold">
 
@@ -39,13 +39,13 @@ const newestArtikler = computed(() =>
   </div>
   <div class="flex flex-wrap">
           <!-- repeat artikel thumbnail -->
-          <div class="forsideArtikler flex flex-wrap w-full gap-4 ">
-            <router-link :to="`/artikler/${artikel.id}`" class="w-3./12" v-for="artikel in newestArtikler" :key="artikel.id">
+          <div class="forsideArtikler grid grid-cols-3 w-full gap-4">
+            <router-link :to="`/artikler/${artikel.id}`" class="" v-for="artikel in newestArtikler" :key="artikel.id">
               <img :src="artikel.image" alt="{{ artikel.name }} thumbnail" class="h-70 w-full object-cover rounded-[5px]" />
-              <p class="text-2xl">{{ artikel.name }}</p>
+              <p class="text-2xl artikelTitle">{{ artikel.name }}</p>
               <p>{{ artikel.description }}</p>
             </router-link>
-            <a class="w-3/12" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
+            <a class="" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
               <img src="/public/images/merchTidslerne.png" class="h-100 rounded-[5px] w-full object-cover" alt="">
             </a>
           </div>
@@ -80,20 +80,19 @@ const newestArtikler = computed(() =>
 }
 
 .Imgcontainer{
-  margin-left: 70px;
   background-image: url('@/assets/OldAndYoung.jpg'); /* ret stien til dit billede */
   background-size: cover;
   background-position: center;
 }
 
-.senesteNytOverskrift{
+/* .senesteNytOverskrift{
   margin-left: 70px;
 }
 
 .forsideArtikler{
   margin-left: 70px;
 }
-
+ */
 .OverskriftButton{
   font-size: 24px;
 }

@@ -1,5 +1,6 @@
 <template>
-  <header class="bg-nav-green !max-w-full">
+  <div class="bg-nav-green flex flex-col items-center">
+  <header class="w-[1280px]">
 <RouterLink to="/">
   <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="150" />
 </RouterLink>
@@ -52,6 +53,7 @@
       </nav>
     </div>
   </header>
+  </div>
 </template>
 
 <script setup>

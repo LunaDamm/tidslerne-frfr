@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <div class="w-4/4 bg-nav-green">
+    <div class="bg-nav-green flex flex-col items-center">
+    <div class="w-[1280px]">
       <div class="footerBigBox text-light-green flex flex-row justify-between">
 
         <div class="footerBox1 ">
@@ -31,6 +32,7 @@
 
       </div>
 
+    </div>
     </div>
   </footer>
 </template>

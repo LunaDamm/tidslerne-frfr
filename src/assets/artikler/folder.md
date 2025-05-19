@@ -4,7 +4,7 @@ Forfatter: Tidslerne
 Email:
 Dato: 2024-11-29
 Tags: [Information]
-Billede: https://www.tidslerne.dk/wp-content/uploads/2024/11/Tidslerne-folder-2024-grafik-560x416.jpg
+Billede: 
 Beskrivelse: Vi har en ny folder til jer!
 Kilde:
 ---

@@ -4,7 +4,7 @@ Forfatter: Nynne Afkjær
 Email: nynne.a@hotmail.com
 Dato: 2024-01-15
 Tags: [Behandling i udlandet, Patienthistorier]
-Billede: https://www.tidslerne.dk/wp-content/uploads/2024/01/budwig-center-560x416.jpg
+Billede: "/images/artikelBilleder/budwig.JPG"
 Beskrivelse: En fortælling om mit besøg på Budwigcenteret
 Kilde:
 ---

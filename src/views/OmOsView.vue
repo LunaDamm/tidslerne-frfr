@@ -22,7 +22,7 @@
   <!-- Person 1 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/Mai-Nielsen3.png" alt="Mai Nielsen" class="w-full h-auto rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Mai Nielsen</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Mai Nielsen</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Formand</p>
     <p class="text-dark-green text-[16px] font-main">Engparken 13</p>
     <p class="text-dark-green text-[16px] font-main">6700 Esbjerg</p>
@@ -33,7 +33,7 @@
   <!-- Person 2 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/nynne_afkjaer.png" alt="Nynne Afkjær" class="w-full h-auto rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Nynne Afkjær</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Nynne Afkjær</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Frivillig</p>
     <p class="text-dark-green text-[16px] font-main">Strandjægervej 85</p>
     <p class="text-dark-green text-[16px] font-main">2791 Dragør</p>
@@ -44,7 +44,7 @@
   <!-- Person 3 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/hovedskou.png" alt="Christina Hovedskou" class="w-full h-auto rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Christina Hovedskou</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Christina Hovedskou</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Kredskoordinator / Online Kurser</p>
     <p class="text-dark-green text-[16px] font-main">Hylleholtvej 11</p>
     <p class="text-dark-green text-[16px] font-main">4654 Faxe Ladeplads</p>
@@ -59,7 +59,7 @@
   <!-- Person 4 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/dorthehelbrink.jpg" alt="Dorthe Helbrink" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Dorthe Helbrink</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Dorthe Helbrink</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Næstformand / Tidsellinjen</p>
     <p class="text-dark-green text-[16px] font-main">Bygade 25</p>
     <p class="text-dark-green text-[16px] font-main">3720 Aakirkeby</p>
@@ -70,7 +70,7 @@
   <!-- Person 5 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/dorthe_olsen.jpg" alt="Dorthe Vinther Olsen" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Dorthe Vinther Olsen</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Dorthe Vinther Olsen</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Kasserer</p>
     <p class="text-dark-green text-[16px] font-main">Aalborgvej 136</p>
     <p class="text-dark-green text-[16px] font-main">9370 Hals</p>
@@ -81,7 +81,7 @@
   <!-- Person 6 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/Heidi-Hansen.jpg" alt="Heidi Hansen" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Heidi Hansen</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Heidi Hansen</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Frivillig</p>
     <p class="text-dark-green text-[16px] font-main">Birkevej 7A</p>
     <p class="text-dark-green text-[16px] font-main">4300 Holbæk</p>
@@ -96,7 +96,7 @@
   <!-- Person 7 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/Marianne-Brodsgaard.jpg" alt="Marianne Brødsgaard" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>
-    <p class="mt-2 text-dark-green text-[25px] font-bold font-subtitle">Marianne Brødsgaard</p>
+    <p class="text-dark-green text-[25px] font-bold font-subtitle">Marianne Brødsgaard</p>
     <p class="text-dark-green text-[20px] font-bold font-subtitle">Frivillig</p>
     <p class="text-dark-green text-[16px] font-main">Ryttergrøftsvejen 329</p>
     <p class="text-dark-green text-[16px] font-main">7080 Børkop</p>

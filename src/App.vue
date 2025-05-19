@@ -1,99 +1,18 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
-  <header class="bg-nav-green">
-<RouterLink to="/">
-  <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="150" />
-</RouterLink>
 
-    <div class="wrapper w-4/4">
-
-      <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
-        <div class="arrangementerDropDown">
-          <button class="nav-link hover:text-logo-purple ease-in duration-300">Arrangementer</button>
-          <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2 ">
-            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
-            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
-          </div>
-        </div>
-
-        <div class="artiklerDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/artikler">Artikler</RouterLink>
-          <div class="artiklerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link" to="/artikler">Patienthistorier</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Behandling i Udlandet</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Konventionel</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Komplementær</RouterLink>
-            <RouterLink class="dropDown-link" to="/artikler">Følge og senskader</RouterLink>
-          </div>
-        </div>
-
-        <div class="omOsDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/om-os">Om os</RouterLink>
-          <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link " to="/om-os">Hvem er vi?</RouterLink>
-            <RouterLink class="dropDown-link " to="/bladet">Tidslerne Bladet</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Kontakt os</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Støt os</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Facebook Grupper</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Nyhedsbrev</RouterLink>
-          </div>
-        </div>
-
-        <div class="infoDropDown">
-          <RouterLink class="nav-link hover:text-logo-purple ease-in duration-300" to="/info">Info</RouterLink>
-          <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
-            <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
-            <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Vedtægter</RouterLink>
-            <RouterLink class="dropDown-link " to="#">Søg Legater</RouterLink>
-          </div>
-        </div>
-
-        <a class="nav-link hover:text-logo-purple ease-in duration-300" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
-      </nav>
-    </div>
-  </header>
+  <NavBar />
 
   <RouterView />
 
+  <Footer />
 
-  <footer>
-    <div class="w-4/4 bg-nav-green">
-<div class="footerBigBox text-light-green flex flex-row justify-between">
 
-    <div class="footerBox1 ">
-        <RouterLink class="footer-link" to="#">Kontakt os</RouterLink>
-        <RouterLink class="footer-link" to="#">Privatpolitik</RouterLink>
-        <RouterLink class="footer-link" to="#">Artikler</RouterLink>
-      </div>
-
-      <div class="footerBox2">
-        <RouterLink class="footer-link" to="#">Merch</RouterLink>
-        <a class="footer-link" href="https://medlem.tidslerne.dk/">Login</a>
-        <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
-      </div>
-
-      <div class="flex items-center gap-4 mt-6 ml-auto">
-      <div class="facebookLogo ">
-        <a href="https://www.facebook.com/groups/1480251482282861/?ref=group_header">
-          <img src="@/assets/facebook.png" alt="Facebook" class="w-10 h-10" />
-        </a>
-        </div>
-
-        <div class="instagramLogo">
-            <a href="https://instagram.com">
-            <img src="@/assets/instagram.png" alt="Instagram" class="w-10 h-10" />
-             </a>
-           </div>
-      </div>
-
-    </div>
-
-    </div>
-  </footer>
 </template>
 
 <style scoped>

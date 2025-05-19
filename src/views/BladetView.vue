@@ -31,9 +31,9 @@ console.log(bladet);
 
   <div class="p-5"></div>
 
-  <p class="text-dark-green text-[18px]">Nedenfor har du alle udgivne medlemsblade fra Tidslerne.</p>
+  <p class="text-dark-green text-[18px] font-main">Nedenfor har du alle udgivne medlemsblade fra Tidslerne.</p>
   <br>
-  <p class="text-dark-green text-[18px]">Du kan læse bladene direkte her fra siden. Klik på et blad for at åbne det.</p>
+  <p class="text-dark-green text-[18px] font-main">Du kan læse bladene direkte her fra siden. Klik på et blad for at åbne det.</p>
 
 <div class="p-5"></div>
 

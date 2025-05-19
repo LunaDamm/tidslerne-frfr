@@ -8,7 +8,9 @@ import Footer from '@/components/Footer.vue'
 
   <NavBar />
 
-  <RouterView />
+<div class="flex flex-col justify-center items-center">
+  <RouterView class="max-w-[1280px]" />
+</div>
 
   <Footer />
 

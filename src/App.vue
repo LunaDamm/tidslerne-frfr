@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header class="bg-nav-green">
 <RouterLink to="/">
-  <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="200" />
+  <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="150" />
 </RouterLink>
 
     <div class="wrapper w-4/4">

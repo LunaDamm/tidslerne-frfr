@@ -9,9 +9,7 @@
     <p class="text-dark-green text-[18px]">Som medlem af Kræftforeningen Tidslerne har du mulighed for at købe anerkendte produkter fra leverandører, der tilbyder dig attraktive rabatter. Vi ved, at kosttilskud kan være en stor udgift, og flere af vores leverandører har derfor forståelse for, at vores medlemmer er sårbare. Derfor ønsker de at tilbyde Tidselmedlemmer særlige rabatter.
       <br>
       <br>
-     Derudover har vi også mulighed for medlemmer at deltage i arrangementer, hvor du
-     hvor vi som Tidslerne prøver at skabe et fælleskab, netop for folk ligesom dig
-     så forhåbenligt møder du nogle ligesindede mennesker, som du kan dele dine oplevelser med.    </p>
+     Hos Tidslerne har du også mulighed for at deltage i arrangementer, hvor vi skaber fællesskab og samvær med ligesindede. Vi ved, hvor vigtigt det er at møde andre, der forstår din situation, og derfor arrangerer vi aktiviteter, hvor du kan dele dine oplevelser og få nye relationer i trygge rammer.    </p>
 
     <div class="p-5"></div>
 
@@ -104,3 +102,4 @@
 
   <style>
   </style>
+

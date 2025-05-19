@@ -9,6 +9,7 @@ console.log(bladet);
 </script>
 
 <template>
+  <div>
 <div class="relative z-0 w-full h-[400px] md:h-[800px]">
   <div
     class="absolute inset-0 bg-cover bg-center"
@@ -69,6 +70,7 @@ console.log(bladet);
 
 
   <div class="p-5"></div>
+  </div>
 </template>
 
 

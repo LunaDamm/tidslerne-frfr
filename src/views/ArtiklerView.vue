@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="pt-15">Artikler</h1>
-    <div class="">
+    <div class="pb-10">
           <!-- repeat artikel thumbnail -->
           <div class="col-span-1 w-full gap-4 grid grid-cols-3">
             <router-link :to="`/artikler/${artikel.id}`" class="" v-for="artikel in sortedArtikler" :key="artikel.id">

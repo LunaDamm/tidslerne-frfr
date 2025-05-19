@@ -3,14 +3,14 @@
   <div class="p-5"></div>
 
   <h1 class="text-dark-green text-[48px] font-bold font-headline">Hvem er Vi?</h1>
-      <br></br>
+      <br>
 
   <p class="text-dark-green text-[18px] font-main">Kræftforeningen Tidslerne er patienternes forening – uafhængig af læger og
     medicinalvareindustrien. Tidslernes formål er at udbrede kendskabet til, samt være brobygger mellem, konventionel og
     komplementær kræftbehandling. Vi støtter vores medlemmer i valg eller fravalg af behandling. Vi mennesker er
     individuelle, og hver patient skal finde sin egen vej.
-    <br></br>
-    <br></br>
+    <br>
+    <br>
     Tidslerne arbejder for en positiv og åben dialog mellem behandler og patient samt for oplysning om bivirkninger og
     evidens for behandlingstilbud, både i det konventionelle sundhedssystem og indenfor de komplementære/alternative
     behandlingsformer.</p>

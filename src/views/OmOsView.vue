@@ -3,10 +3,10 @@
 
   <div class="p-5"></div>
 
-  <h1 class="text-dark-green text-[48px] font-bold font-headline">Hvem er Vi?</h1>
+  <h1 class="text-dark-green text-[48px] font-bold font-headline px-4">Hvem er Vi?</h1>
       <br>
 
-  <p class="text-dark-green text-[18px] font-main">Kræftforeningen Tidslerne er patienternes forening – uafhængig af læger og
+  <p class="text-dark-green text-[18px] font-main px-4">Kræftforeningen Tidslerne er patienternes forening – uafhængig af læger og
     medicinalvareindustrien. Tidslernes formål er at udbrede kendskabet til, samt være brobygger mellem, konventionel og
     komplementær kræftbehandling. Vi støtter vores medlemmer i valg eller fravalg af behandling. Vi mennesker er
     individuelle, og hver patient skal finde sin egen vej.
@@ -18,7 +18,7 @@
 
   <div class="p-5"></div>
 
-<div class="flex flex-col md:flex-row justify-evenly items-start gap-y-10 gap-x-6">
+<div class="flex flex-col md:flex-row justify-evenly items-center sm:items-start gap-y-10 gap-x-6">
   <!-- Person 1 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/Mai-Nielsen3.png" alt="Mai Nielsen" class="w-full h-auto rounded-[5px]"/>
@@ -46,7 +46,7 @@
 
 <div class="py-5"></div>
 
-<div class="flex flex-col md:flex-row justify-evenly items-start gap-y-10 gap-x-6">
+<div class="flex flex-col md:flex-row justify-evenly items-center sm:items-start gap-y-10 gap-x-6">
   <!-- Person 4 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/dorthehelbrink.jpg" alt="Dorthe Helbrink" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>
@@ -74,7 +74,7 @@
 
 <div class="py-5"></div>
 
-<div class="flex flex-col md:flex-row justify-center items-start gap-y-10 gap-x-6">
+<div class="flex flex-col md:flex-row justify-center items-center sm:items-start gap-y-10 gap-x-6">
   <!-- Person 7 -->
   <div class="w-[15.5rem] text-left mx-auto">
     <img src="/images/Marianne-Brodsgaard.jpg" alt="Marianne Brødsgaard" class="w-[248px] h-[310px] object-cover rounded-[5px]"/>

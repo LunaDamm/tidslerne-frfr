@@ -4,7 +4,7 @@ Forfatter: Ditte Corfixen
 Email: dittecorfixen@gmail.com
 Dato: 2024-01-14
 Tags: [Patienthistorier]
-Billede: "/images/artikelBilleder/leverkræft.jpg"
+Billede: "/images/artikelBilleder/leverkræft.webp"
 Beskrivelse: Kampen mod Tommys kræft i leveren begyndte måske tidligere, end vi hidtil har troet.
 Kilde: 
 ---

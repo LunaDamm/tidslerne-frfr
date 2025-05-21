@@ -4,7 +4,7 @@ Forfatter:
 Email:
 Dato: 2024-08-22
 Tags: [Medlemstilbud]
-Billede: /images/artikelBilleder/skibartikel.jpg
+Billede: /images/artikelBilleder/skibartikel.webp
 Beskrivelse: Ejerne af 10 danske sejlskibe har doneret en sejltur...
 Kilde:
 ---

@@ -21,22 +21,7 @@
 }
 
 
-/* Drop down menuer */
-.arrangementerDropDown:hover .arrangementerDropDownContent {
-  display: block;
-}
 
-.artiklerDropDown:hover .artiklerDropDownContent {
-  display: block;
-}
-
-.omOsDropDown:hover .omOsDropDownContent {
-  display: block;
-}
-
-.infoDropDown:hover .infoDropDownContent {
-  display: block;
-}
 
 .artikelTitle {
   font-family: var(--font-subtitle);

@@ -10,7 +10,7 @@
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
         <div class="arrangementerDropDown">
           <a class="nav-link hover:text-logo-purple ease-in duration-300" href="https://tidslerne.nemtilmeld.dk/">Arrangementer</a>
-          <div class="arrangementerDropDownContent sm:hidden sm:z-1 sm:absolute bg-button-green text-light-green rounded-sm py-2 ">
+          <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2 ">
             <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
             <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
           </div>

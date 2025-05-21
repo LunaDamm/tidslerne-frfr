@@ -1,6 +1,6 @@
 <template>
   <div class="bg-nav-green flex flex-col items-center">
-  <header class="w-[1280px]">
+  <header class="sm:w-[1280px] w-full">
 <RouterLink to="/">
   <img alt="Tidslerne logo" class="logo" src="@/assets/tidslerneLogo.svg" width="200" height="150" />
 </RouterLink>
@@ -10,7 +10,7 @@
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
         <div class="arrangementerDropDown">
           <a class="nav-link hover:text-logo-purple ease-in duration-300" href="https://tidslerne.nemtilmeld.dk/">Arrangementer</a>
-          <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2 ">
+          <div class="arrangementerDropDownContent sm:hidden sm:z-1 sm:absolute bg-button-green text-light-green rounded-sm py-2 ">
             <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
             <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
           </div>
@@ -117,6 +117,23 @@ padding: 2px 15px;
 
 .dropDown-link:hover{
 text-decoration: underline;
+}
+
+/* Drop down menuer */
+.arrangementerDropDown:hover .arrangementerDropDownContent {
+  display: block;
+}
+
+.artiklerDropDown:hover .artiklerDropDownContent {
+  display: block;
+}
+
+.omOsDropDown:hover .omOsDropDownContent {
+  display: block;
+}
+
+.infoDropDown:hover .infoDropDownContent {
+  display: block;
 }
 
 @media (min-width: 1024px) {

@@ -4,7 +4,7 @@ Forfatter: Inge Kellermann
 Email: inge@helsemail.dk
 Dato: 2024-06-10
 Tags: [Senskader]
-Billede: "/images/artikelBilleder/risikoKræft.jpg"
+Billede: "/images/artikelBilleder/risikoKræft.webp"
 Beskrivelse: Danske læger undersøger risikoen for senfølger
 Kilde: https://www.cancer.dk/nyheder/forskere-saetter-tal-paa-risiko-for-ny-kraeft-efter-behandling-for-lymfekraeft/
 ---

@@ -4,7 +4,7 @@ Forfatter: Inge Kellermann
 Email: inge@helsemail.dk
 Dato: 2024-01-14
 Tags: [Cannabis]
-Billede: /images/artikelBilleder/ganja.jpg
+Billede: /images/artikelBilleder/ganja.webp
 Beskrivelse: Et nyere studie viser, at mange kræftpatienter benytter sig af muligheden.
 Kilde: https://bogenommedicinskcannabis.dk/index.php/artikler/brugerundersoegelser/hver-fjerde-kraeftpatient-bruger-medicinsk-cannabis/
 ---

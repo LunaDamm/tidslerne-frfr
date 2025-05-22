@@ -1,16 +1,16 @@
 <template>
   <footer>
     <div class="bg-nav-green flex flex-col items-center">
-    <div class="w-[1280px]">
-      <div class="footerBigBox text-light-green flex flex-row justify-between">
+    <div class="md:w-[1280px] w-full">
+      <div class="footerBigBox text-light-green flex flex-row justify-center md:justify-between py-[33px] md:px-[58px]">
 
-        <div class="footerBox1 ">
+        <div class="footerBox1 sm:block hidden">
           <RouterLink class="footer-link" to="#">Kontakt os</RouterLink>
           <RouterLink class="footer-link" to="#">Privatpolitik</RouterLink>
           <RouterLink class="footer-link" to="#">Artikler</RouterLink>
         </div>
 
-        <div class="footerBox2">
+        <div class="footerBox2 sm:block hidden">
           <RouterLink class="footer-link" to="#">Merch</RouterLink>
           <a class="footer-link" href="https://medlem.tidslerne.dk/">Login</a>
           <a class="footer-link" href="https://medlem.tidslerne.dk/">Bliv medlem</a>
@@ -23,7 +23,7 @@
             </a>
           </div>
 
-          <div class="instagramLogo">
+          <div class="instagramLogo !md:mr-[117px]">
             <a href="https://instagram.com">
               <img src="@/assets/instagram.png" alt="Instagram" class="w-10 h-10" />
             </a>
@@ -49,7 +49,7 @@ import { RouterLink } from 'vue-router'
 
 .footerBigBox {
 font-size: 20px;
-padding: 33px 0 33px 117px;
+/* padding: 33px 0 33px 117px; */
 }
 
 .footerBox2 {
@@ -62,7 +62,4 @@ margin-right: 400px ;}
 }
 
 
-.instagramLogo{
-  margin-right: 117px;
-}
 </style>

@@ -58,7 +58,7 @@ const newestArtikler = computed(() =>
               <p class="bg-button-green sm:bg-bag-green text-light-green sm:text-dark-green px-2 pb-2 rounded-b-[5px]">{{ artikel.description }}</p>
             </router-link>
             <a class="" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
-              <img src="/public/images/merchTidslerne.png" class="h-100 rounded-[5px] w-full object-cover transition duration-300 hover:scale-105" alt="">
+              <img src="/src/assets/merchTidslerne.webp" class="h-100 rounded-[5px] w-full object-cover transition duration-300 hover:scale-105" alt="">
             </a>
           </div>
         </div>
@@ -100,7 +100,7 @@ const newestArtikler = computed(() =>
 }
 
 .Imgcontainer{
-  background-image: url('@/assets/OldAndYoung.jpg'); /* ret stien til dit billede */
+  background-image: url('../assets/OldAndYoung.jpg'); /* ret stien til dit billede */
   background-position: center;
 }
 

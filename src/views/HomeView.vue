@@ -100,7 +100,7 @@ const newestArtikler = computed(() =>
 }
 
 .Imgcontainer{
-  background-image: url('src/assets/OldAndYoung.jpg'); /* ret stien til dit billede */
+  background-image: url('../assets/OldAndYoung.jpg'); /* ret stien til dit billede */
   background-position: center;
 }
 

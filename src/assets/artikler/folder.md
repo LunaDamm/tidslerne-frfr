@@ -4,7 +4,7 @@ Forfatter: Tidslerne
 Email:
 Dato: 2024-11-29
 Tags: [Information]
-Billede: 
+Billede: /images/artikelBilleder/brochure.webp
 Beskrivelse: Vi har en ny folder til jer!
 Kilde:
 ---

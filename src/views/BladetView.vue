@@ -39,7 +39,7 @@ console.log(bladet);
 <div class="p-5"></div>
 
    <!-- BLAD -->
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:p-0 p-4">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:p-0 p-4">
 <a
   v-for="blad in [...bladet].reverse()"
   :key="blad.id"

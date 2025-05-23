@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "tidslerne-dk"
-  }
+    "default": "tidslerne-ftw",
+    "tidslerne-ftw": "tidslerne-ftw"
+  },
+  "targets": {},
+  "etags": {}
 }

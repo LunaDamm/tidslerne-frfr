@@ -18,7 +18,7 @@
 
         <div class="flex items-center gap-4 mt-6 ml-auto">
           <div class="facebookLogo ">
-            <a href="https://www.facebook.com/groups/1480251482282861/?ref=group_header">
+            <a href="https://www.facebook.com/tidslernedk/">
               <img src="@/assets/facebook.png" alt="Facebook" class="w-10 h-10" />
             </a>
           </div>

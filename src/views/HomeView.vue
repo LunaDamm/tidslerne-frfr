@@ -26,7 +26,7 @@ const newestArtikler = computed(() =>
 
 
 <section class="medlemOgFordele grid grid-cols-12 pb-16">
-<div class="Imgcontainer p-40 rounded-sm col-span-12 sm:col-span-7 w-4/4 sm:w-full bg-10 bg-cover"></div>
+<div class="Imgcontainer p-40 rounded-sm col-span-12 sm:col-span-7 w-4/4 sm:w-full bg-10 bg-cover data-twe-lazy-load-init"></div>
 
 <div class="flex flex-col items-center justify-center col-start-1 col-span-12 sm:col-start-9 sm:col-span-3 pt-10 sm:pt-0">
 <p class="OverskriftButton w-72 text-dark-green pb-4"><strong>Halløjsa!</strong> Bliv medlem her og få en masse fordele!</p>

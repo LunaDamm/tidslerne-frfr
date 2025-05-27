@@ -46,7 +46,7 @@ const newestArtikler = computed(() =>
 </section>
 
 <section class="senesteNyt flex flex-col sm:px-0 px-5 pt-5 sm:pt-0">
-  <div class="senesteNytOverskrift text-dark-green sm:text-[48px] text-[38px] font-bold">
+  <div class="senesteNytOverskrift text-dark-green sm:text-[48px] text-[38px] font-subtitle">
     <h2>Seneste Nyt</h2>
   </div>
   <div class="flex flex-wrap">

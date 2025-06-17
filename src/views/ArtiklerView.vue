@@ -28,12 +28,4 @@ const sortedArtikler = computed(() =>
   [...artikler.value].sort((a, b) => new Date(b.date) - new Date(a.date))
 )
 
-console.log(artikler); // Check if Artikler contains data
-
-
-
 </script>
-
-<style lang="scss" scoped>
-
-</style>

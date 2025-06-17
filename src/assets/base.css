@@ -90,7 +90,7 @@ body {
 }
 
 h1 {
-  font-family: var(--font-headline);
+  font-family: var(--font-subtitle);
   font-size: 48px;
   font-weight: 700;
 }

@@ -11,25 +11,17 @@
   --color-nav-green: #90B363;
   --color-light-green: #E7FFE2;
   --color-bag-green: #F0F6EA;
-  --color-logo-purple: #7F749B;
+  --color-logo-purple: #7E7499;
 
-
-    --font-headline: 'Oxygen', sans-serif;
     --font-subtitle: 'Open Sans Condensed', sans-serif;
     --font-main: 'Hind Siliguri', sans-serif;
-
 }
-
-
-
 
 .artikelTitle {
   font-family: var(--font-subtitle);
 }
 
 /* Brødtekst for artiklerne */
-
-
 
 .artikelTekst{
   font-family: var(--font-main);
@@ -58,8 +50,6 @@
 .artikelTekst ul {
   margin-bottom: 1rem;
 }
-
-
 
 #app {
   /* max-width: 1280px; */

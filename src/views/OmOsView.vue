@@ -3,7 +3,7 @@
 
   <div class="p-5"></div>
 
-  <h1 class="text-dark-green text-[48px] font-bold font-headline px-4">Hvem er Vi?</h1>
+  <h1 class="text-dark-green text-[48px] font-bold px-4">Hvem er Vi?</h1>
       <br>
 
   <p class="text-dark-green text-[18px] font-main px-4">Kræftforeningen Tidslerne er patienternes forening – uafhængig af læger og

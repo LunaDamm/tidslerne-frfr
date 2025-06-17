@@ -35,7 +35,7 @@ import { useRoute } from 'vue-router';
 const { artikler } = useArtiklerDatabase();
 const route = useRoute();
 const artikel = computed(() => {
-    return artikler.value.find((m) => m.id === parseInt(route.params.id));
+    return artikler.value.find((m) => m.id === route.params.id);
 })
 </script>
 

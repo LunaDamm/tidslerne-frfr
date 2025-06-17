@@ -11,11 +11,12 @@ const files = import.meta.glob('@/assets/artikler/*.md', {
 })
 
 export const useArtiklerDatabase = () => {
-  const artikler = ref(Object.entries(files).map(([, raw], i) => {
+  const artikler = ref(Object.entries(files).map(([path, raw]) => {
     const { attributes: data, body: content } = fm(raw)
+    const id = path.split('/').pop().replace('.md', '')
 
     return {
-      id: i + 1,
+      id,
       name: data.Titel || 'Ingen titel',
       author: data.Forfatter || '',
       authorEmail: data.Email || '',

@@ -9,19 +9,21 @@
 
       <nav class="textNav flex flex-col md:flex-row justify-end text-light-green ">
 
+        <router-link to="/fordele" class="font-bold hover:text-logo-purple ease-in duration-300">Medlemsfordele</router-link>
+
         <div class="arrangementerDropDown hidden md:block">
-          <a class="font-bold hover:text-logo-purple ease-in duration-300" href="https://tidslerne.nemtilmeld.dk/">Arrangementer</a>
+          <a class="font-bold hover:text-logo-purple ease-in duration-300" href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">Arrangementer</a>
           <div class="arrangementerDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2 ">
-            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
-            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
+            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">For patienter</a>
+            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">For støttemedlemmer</a>
           </div>
         </div>
 
         <div class="arrangementerDropDown block md:hidden">
           <div class="font-bold py-1" @click="toggleArrangementerMobile">Arrangementer</div>
           <div class="arrangementerDropDownContent bg-button-green text-light-green rounded-sm py-2" v-show="isArrangementerMobileOpen">
-            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/">For patienter</a>
-            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/">For støttemedlemmer</a>
+            <a class="dropDown-link" href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">For patienter</a>
+            <a class="dropDown-link " href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">For støttemedlemmer</a>
           </div>
         </div>
 
@@ -52,6 +54,7 @@
           <div class="omOsDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
             <RouterLink class="dropDown-link " to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink class="dropDown-link " to="/bladet">Tidslerne Bladet</RouterLink>
+            <a href="https://tojkurven.dk/?s=tidslerne&post_type=product" target="_blank" rel="noopener noreferrer" class="dropDown-link">Merch</a>
             <RouterLink class="dropDown-link " to="#">Kontakt os</RouterLink>
             <RouterLink class="dropDown-link " to="#">Støt os</RouterLink>
             <RouterLink class="dropDown-link " to="#">Facebook Grupper</RouterLink>
@@ -64,6 +67,7 @@
           <div class="omOsDropDownContent hidden bg-button-green text-light-green rounded-sm py-2" v-show="isOmOsMobileOpen">
             <RouterLink class="dropDown-link " to="/om-os">Hvem er vi?</RouterLink>
             <RouterLink class="dropDown-link " to="/bladet">Tidslerne Bladet</RouterLink>
+          <a href="https://tojkurven.dk/?s=tidslerne&post_type=product" target="_blank" rel="noopener noreferrer" class="dropDown-link">Merch</a>
             <RouterLink class="dropDown-link " to="#">Kontakt os</RouterLink>
             <RouterLink class="dropDown-link " to="#">Støt os</RouterLink>
             <RouterLink class="dropDown-link " to="#">Facebook Grupper</RouterLink>
@@ -74,6 +78,7 @@
         <div class="infoDropDown hidden md:block">
           <RouterLink class="font-bold hover:text-logo-purple ease-in duration-300" to="/info">Info</RouterLink>
           <div class="infoDropDownContent hidden z-1 absolute bg-button-green text-light-green rounded-sm py-2">
+             <RouterLink class="dropDown-link " to="/fordele">Medlemsfordele</RouterLink>
             <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>
             <RouterLink class="dropDown-link " to="#">Vedtægter</RouterLink>
@@ -84,6 +89,7 @@
         <div class="infoDropDown block md:hidden">
           <div class="font-bold py-1" @click="toggleInfoMobile">Info</div>
           <div class="infoDropDownContent hidden bg-button-green text-light-green rounded-sm py-2" v-show="isInfoMobileOpen">
+             <RouterLink class="dropDown-link " to="/fordele">Medlemsfordele</RouterLink>
             <RouterLink class="dropDown-link " to="#">Privatspolitik</RouterLink>
             <RouterLink class="dropDown-link" to="#">Vejledning til Zoom</RouterLink>
             <RouterLink class="dropDown-link " to="#">Vedtægter</RouterLink>
@@ -91,7 +97,7 @@
           </div>
         </div>
 
-        <a class="font-bold hover:text-logo-purple ease-in duration-300" href="https://medlem.tidslerne.dk/">Login/Tilmeld</a>
+        <a class="font-bold hover:text-logo-purple ease-in duration-300" href="https://medlem.tidslerne.dk/" target="_blank" rel="noopener noreferrer">Login/Tilmeld </a>
       </nav>
     </div>
   </header>

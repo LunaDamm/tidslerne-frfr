@@ -13,17 +13,27 @@ const newestArtikler = computed(() =>
 </script>
 
 <template>
-  <video autoplay muted loop class="herooo !w-full">
-    <source src="@/assets/video/tidslerneHeroVideo.mp4" type="video/mp4">
-  </video>
-  <div class="absolute !mt-22 top-0 left-0 w-full sm:h-1/2 hidden md:flex items-end justify-center">
-    <h1 class="text-white">Velkommen til Tidslerne</h1>
+  <div class="relative w-full h-[60vh]">
+    <!-- Video -->
+    <video autoplay muted loop class="herooo !w-full">
+      <source src="@/assets/video/Tidslerne_loop.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
+
+    <!-- Tekst -->
+    <div class="absolute !mt-22 top-0 left-0 w-full sm:h-1/2 hidden md:flex items-end justify-center">
+<div class="bg-black/40 backdrop-blur-sm px-4 py-2 rounded-[5px]">
+  <h1 class="text-light-green drop-shadow-lg">Velkommen til Tidslerne</h1>
+</div>
+
+    </div>
   </div>
+    <div class="p-12"></div>
   <main>
 
 <!-- <div class="heroImg p-70 !w-full"></div> -->
-
-
 
 <section class="medlemOgFordele grid grid-cols-12 pb-16">
 <div class="Imgcontainer p-40 rounded-sm col-span-12 sm:col-span-7 w-4/4 sm:w-full bg-10 bg-cover data-twe-lazy-load-init"></div>
@@ -32,7 +42,7 @@ const newestArtikler = computed(() =>
 <p class="OverskriftButton w-72 text-dark-green pb-4"><strong>Halløjsa!</strong> Bliv medlem her og få en masse fordele!</p>
 <div class="flex flex-col gap-4 w-full items-center font-bold">
 
-<a href="https://medlem.tidslerne.dk/" class=" bg-button-green text-light-green px-8 text-[20px] py-2 rounded-sm mb-4 w-72 flex justify-center items-center transition duration-300 hover:scale-105">Medlem</a>
+<a href="https://medlem.tidslerne.dk/" target="_blank" rel="noopener noreferrer" class="bg-button-green text-light-green px-8 text-[20px] py-2 rounded-sm mb-4 w-72 flex justify-center items-center transition duration-300 hover:scale-105">Medlem</a>
 
 <RouterLink class=" bg-button-green text-light-green px-8 py-2 text-[20px] rounded-sm mb-4 w-72 flex justify-center items-center transition duration-300 hover:scale-105" to="/fordele">Fordele</RouterLink>
 </div>
@@ -57,12 +67,30 @@ const newestArtikler = computed(() =>
               <p class="text-2xl artikelTitle bg-button-green sm:bg-bag-green text-light-green sm:text-dark-green px-2 pt-2">{{ artikel.name }}</p>
               <p class="bg-button-green sm:bg-bag-green text-light-green sm:text-dark-green px-2 pb-2 rounded-b-[5px]">{{ artikel.description }}</p>
             </router-link>
-            <a class="" href="https://tojkurven.dk/?s=tidslerne&post_type=product">
-              <img src="/src/assets/merchTidslerne.webp" class="h-100 rounded-[5px] w-full object-cover transition duration-300 hover:scale-105" alt="">
-            </a>
+           
+<div class="flex flex-col">
+  <a 
+    href="https://tojkurven.dk/?s=tidslerne&post_type=product" target="_blank" rel="noopener noreferrer"
+    class="transition duration-300 hover:scale-105"
+  >
+    <img 
+      src="/src/assets/merchTidslerne.webp" 
+      class="h-[340px] w-full object-cover rounded-[5px]" 
+      alt="Tidslerne Merch"
+    />
+  </a>
+
+  <div class="flex justify-center mt-4">
+    <a 
+      href="https://tojkurven.dk/?s=tidslerne&post_type=product" target="_blank" rel="noopener noreferrer"
+      class="buttonTekstArtikler bg-button-green text-light-green text-[20px] px-8 py-2 font-bold rounded-sm transition duration-300 hover:scale-105"
+    >
+      Køb Merch Her!
+    </a>
+  </div>
+</div>
           </div>
         </div>
-
 
   <div class="flex justify-center mt-6">
     <RouterLink class="buttonTekstArtikler bg-button-green text-light-green text-[20px] px-8 py-2 w-72 font-bold rounded-sm flex justify-center transition duration-300 hover:scale-105"
@@ -73,10 +101,10 @@ const newestArtikler = computed(() =>
 <section class="arrangementerKnapper">
   <div class="flex justify-center flex-wrap gap-4 ">
     <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 text-[20px] font-bold rounded-sm flex justify-center text-center transition duration-300 hover:scale-105"
-     href="https://tidslerne.nemtilmeld.dk/">Arrangementer for patienter</a>
+     href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">Arrangementer for patienter</a>
 
     <a class="buttonTekst bg-button-green text-light-green px-8 py-2 w-72 text-[20px] font-bold rounded-sm flex justify-center text-center transition duration-300 hover:scale-105"
-      href="https://tidslerne.nemtilmeld.dk/" >Arrangementer for støttemedlemmer</a>
+      href="https://tidslerne.nemtilmeld.dk/" target="_blank" rel="noopener noreferrer">Arrangementer for støttemedlemmer</a>
   </div>
 </section>
 
@@ -124,5 +152,13 @@ margin-top: 40px;
   margin-top: 35px;
   margin-bottom: 60px;
 }
+
+/* .outlined-text {
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+} */
 
 </style>

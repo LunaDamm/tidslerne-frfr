@@ -28,10 +28,4 @@ const sortedArtikler = computed(() =>
   [...artikler.value].sort((a, b) => new Date(b.date) - new Date(a.date))
 )
 
-
-
 </script>
-
-<style lang="scss" scoped>
-
-</style>
